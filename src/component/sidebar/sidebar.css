@@ -10,6 +10,7 @@
      background-color: var(--card-color);
      position: fixed;
      box-shadow: -3px 3px 9px var(--shadow-color);
+     z-index: 1;
 }
 
 .sidebar-link a{

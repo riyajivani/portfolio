@@ -1,0 +1,13 @@
+.footer{
+     text-align: center;
+     width: 100%;
+     background-color: var(--background-color);
+     padding-bottom: 30px;
+     color: var(--contrast-color);
+}
+
+@media screen and (max-width:990px){
+     .footer{
+          padding-bottom: 80px;
+     }
+}

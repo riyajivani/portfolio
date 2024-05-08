@@ -1,9 +1,17 @@
 import React from 'react'
+import Card from '../../component/card/Card'
 import './contact.css'
 
 const Contact = () => {
      return (
-          <div className='container'>Contact</div>
+          <div className='container'>
+               <Card>
+                    <div className="contact-card">
+                         <h1>contacts</h1>
+                         <p>hiiii Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ea aperiam, ipsam dolor enim voluptatibus, velit doloremque praesentium voluptate, nam animi libero quas hic. Ducimus nulla aliquam odio expedita labore?</p>
+                    </div>
+               </Card>
+          </div>
      )
 }
 

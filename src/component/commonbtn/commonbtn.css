@@ -1,0 +1,16 @@
+.btn{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 20px;
+     padding: 10px;
+     background-color: var(--btn-color);
+     color: var(--btn-text);
+     border-radius: 20px;
+     font-size: 15px;
+     width: fit-content;
+}
+
+.btn:hover{
+     background-color: var(--hover-color);
+}

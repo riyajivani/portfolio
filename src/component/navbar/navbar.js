@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import Theme from '../themeToggle/Theme';
+import Footer from '../footer/Footer';
 
 const Navbar = () => {
 
@@ -36,6 +37,7 @@ const Navbar = () => {
 
           {sidebarOpen && <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />}
           <Outlet />
+          <Footer />
      </>
      )
 }

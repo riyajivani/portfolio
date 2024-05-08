@@ -6,6 +6,7 @@ import Blogs from './pages/blog/Blogs';
 import Contact from './pages/contact/Contact';
 import Projects from './pages/projects/Projects';
 import Resume from './pages/resume/Resume';
+import Footer from './component/footer/Footer';
 
 function App() {
   return (
