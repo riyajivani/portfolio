@@ -4,6 +4,7 @@
   --text-color:#354765;
   --main-text-color:#000000;
   --card-color:#ffffff;
+  --image-cover:rgba(255,255,255,0.5);
   --btn-color:#465981;
   --btn-text:#ffffff;
   --hover-color:#43567b;
@@ -19,6 +20,7 @@
   --text-color:#a5b3ce;
   --main-text-color:#ffffff;
   --card-color:#1e2738;
+  --image-cover:rgba(30,39,56,0.5);
   --btn-color:#465981;
   --hover-color:#43567b;
   --contrast-color:#fe655c;
@@ -36,4 +38,8 @@
   outline: none;
   list-style: none;
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  letter-spacing: 1.5px;
 }

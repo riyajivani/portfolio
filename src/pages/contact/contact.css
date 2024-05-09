@@ -1,4 +1,88 @@
 .contact-card{
      text-align: center;
      margin-bottom: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0 30px;
+}
+
+.contact-sm {
+     display: none;
+     margin: 15px;
+}
+
+.contact-text{
+     color: var(--main-text-color);
+     margin: 60px 0 20px 0;
+}
+
+.contact-form{
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+}
+
+.form-input{
+     border: 1px solid var(--text-color);
+     background-color: transparent;
+     color: var(--text-color);
+     padding: 10px;
+     width: 100%;
+     font-size: 15px;
+     border-radius: 5px;
+}
+
+.input{
+     display: flex;
+     gap: 20px;
+     width: 100%;
+}
+
+.form-input:-webkit-autofill{
+     transition: background-color 6000s, color 6000s;
+}
+
+.form-input::placeholder{
+     color: var(--text-color);
+     transition: opacity .4s;
+}
+
+.form-input:focus{
+     border: 1px solid var(--contrast-color);
+}
+
+.contact-btn{
+     background-color: var(--btn-color);
+     color: var(--btn-text);
+     border-radius: 20px;
+     font-size: 15px;
+     font-weight: 600;
+     width: 100%;
+     cursor: pointer;
+     padding: 10px;
+}
+
+.contact-btn:hover{
+     background-color: var(--hover-color);
+}
+
+@media screen and (max-width:990px){
+     .contact-sm {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+
+     .contact-sm li{
+          padding: 5px;
+     }
+}
+
+@media screen and (max-width:990px){
+     .input{
+          flex-direction: column;
+     }
 }

@@ -14,7 +14,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <div className='sidebar'>
 
                <div className="sidebar-link">
-                    <NavLink to="/about">
+                    <NavLink to="/">
                          <BsPersonCircle />
                          <p>About</p>
                     </NavLink>

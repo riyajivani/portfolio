@@ -2,6 +2,7 @@
      text-align: center;
      width: 100%;
      background-color: var(--background-color);
+     padding-top: 10px;
      padding-bottom: 30px;
      color: var(--contrast-color);
 }

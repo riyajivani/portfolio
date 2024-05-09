@@ -1,0 +1,104 @@
+{
+     "expertise": [
+          {
+               "id": 1,
+               "name": "Frontend Development",
+               "description": "Crafting sleek and responsive user interfaces, I specialize in frontend development that delivers seamless interactions and exceptional user experiences, ensuring your digital presence stands out with elegance and efficiency.",
+               "icon": "IoTerminalOutline"
+          },
+          {
+               "id": 2,
+               "name": "Backend Development",
+               "description": "Specializing in backend development, I architect efficient solutions to power web applications, ensuring seamless functionality and optimal performance for your digital ventures.",
+               "icon": "BsDatabaseCheck"
+          },
+          {
+               "id": 3,
+               "name": "Full-Stack Development",
+               "description": "As a full stack developer, I craft end-to-end solutions, seamlessly integrating frontend and backend technologies to create dynamic and responsive web applications that elevate user experiences and drive digital success.",
+               "icon": "IoCubeOutline"
+          },
+          {
+               "id": 4,
+               "name": "App Development",
+               "description": "Specializing in Android app development, I create innovative mobile solutions that blend functionality with intuitive design, providing users with engaging experiences while meeting your business objectives.",
+               "icon": "BsAndroid2"
+          }
+     ],
+     "projects": [
+          {
+               "id": 1,
+               "title": "ScolarSphere",
+               "description": "The purpose of the Student Query Management System (ScholarSphere) is to establish an efficient platform for communication and collaboration within university settings.By providing students with a means to pose queries to their assigned mentors and allowing faculty members to respond effectively, ScholarSphere aims to streamline the exchange of information and support within academic communities.",
+               "tech": [
+                    "FaReact",
+                    "FaNodeJs",
+                    "SiMongodb"
+               ],
+               "image": "1.png",
+               "github": "https://github.com/monilghori/Student_Counselling_System",
+               "view": "https://student-counselling-system.vercel.app/"
+          },
+          {
+               "id": 2,
+               "title": "ResumeBuilder",
+               "description": "Resume Builder is an easy-to-use application designed to help users create professional resumes quickly and efficiently. It offers a user-friendly interface with customizable templates and easy editing options.",
+               "tech": [
+                    "FaReact",
+                    "BiLogoSpringBoot",
+                    "SiMysql"
+               ],
+               "image": "2.png",
+               "github": "https://github.com/riyajivani/sem6_mini_project_ResumeBuilder",
+               "view": "#"
+          },
+          {
+               "id": 3,
+               "title": "Biometric Attendance System",
+               "description": "The Cloud-Based Attendance System with Face Detection is an innovative solution that aims to automate the attendance management process using face recognition technology and store the attendance data securely in the cloud.",
+               "tech": [
+                    "SiJirasoftware"
+               ],
+               "image": "3.png",
+               "github": "https://github.com/riyajivani/Software_Engineering_Project",
+               "view": "#"
+          },
+          {
+               "id": 4,
+               "title": "Shopello",
+               "description": "Shopello: Where every click unlocks a world of possibilities. Discover curated collections, find your perfect fit, and elevate your shopping experience with convenience and style.",
+               "tech": [
+                    "FaHtml5",
+                    "IoLogoCss3",
+                    "IoLogoJavascript"
+               ],
+               "image": "4.jpg",
+               "github": "https://github.com/riyajivani/SHOPELLO",
+               "view": "https://riyajivani.github.io/SHOPELLO/"
+          },
+          {
+               "id": 5,
+               "title": "Online Air Ticket Booking System",
+               "description": "Revolutionize your travel experience with our Online Air Ticket Booking System. Backed by PostgreSQL, book flights effortlessly and embark on your next adventure with confidence and convenience.",
+               "tech": [
+                    "SiPostgresql"
+               ],
+               "image": "5.jpg",
+               "github": "https://github.com/riyajivani/DBMS_PROJECT",
+               "view": "#"
+          },
+          {
+               "id": 6,
+               "title": "Beyond The Reels",
+               "description": "Unveil an immersive social media experience with my diverse platform. Discover memes, reels, image galleries, and tunes—all in one place, tailored for every social media enthusiast.",
+               "tech": [
+                    "FaHtml5",
+                    "IoLogoCss3",
+                    "FaPhp"
+               ],
+               "image": "6.jpg",
+               "github": "https://github.com/riyajivani/DUHACK_project",
+               "view": "https://riyajivani.github.io/DUHACK_project/"
+          }
+     ]
+}

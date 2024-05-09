@@ -1,11 +1,11 @@
-import './card.css'
+import './mycard.css'
 import profilePic from '../../assets/profile-pic.png'
 
 import React from 'react'
 
-const Card = ({ children }) => {
+const MyCard = ({ children }) => {
      return (
-          <div className="card">
+          <div className="mycard">
                <img src={profilePic} alt='profilePic' className='profilePic' />
                <div className='children'>
                     {children}
@@ -14,4 +14,4 @@ const Card = ({ children }) => {
      )
 }
 
-export default Card
+export default MyCard

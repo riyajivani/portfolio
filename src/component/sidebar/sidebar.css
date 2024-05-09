@@ -35,10 +35,24 @@
      .sidebar{
           display: flex;
           flex-direction: row;
+          overflow-x: auto;
           width: 100%;
           margin: 0;
           justify-content: space-around;
           bottom: 0;
+     }
+
+     .sidebar::-webkit-scrollbar {
+          height: 3px;
+     }
+        
+     .sidebar::-webkit-scrollbar-thumb {
+          background-color: var(--contrast-color);
+          border-radius: 10px;
+     }
+        
+     .sidebar::-webkit-scrollbar-track {
+          background-color: var(--main-text-color);
      }
 
      .close{

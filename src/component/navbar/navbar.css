@@ -31,6 +31,10 @@
      cursor: pointer; 
 }
 
+.social-media li:hover{
+     color: var(--contrast-hover);
+}
+
 .sidebar-toggle{
      font-size: 20px;
      color: var(--text-color);

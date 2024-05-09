@@ -1,4 +1,123 @@
 .projects-card{
      text-align: center;
-     margin-bottom: 20px;
+     padding: 0 30px;
+     display: flex;
+     flex-direction: column;
+     gap:20px;
+     align-items: center;
+}
+
+.projects{
+     background-color: var(--card-color);
+     border-radius: 5px;
+     width: 100%;
+     height: fit-content;
+     display: flex; 
+     flex-direction: column; 
+     gap: 20px;
+     box-shadow: 1px 1px 5px var(--shadow-color);
+     padding: 20px;
+     margin-top: 50px;
+}
+
+.project {
+     display: flex;
+     align-items: start;
+     margin: 30px;
+     gap: 20px;
+     cursor: pointer;
+     position: relative;
+}
+
+.project-overlay::after {
+     content: 'Preview';
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: var(--link-color);
+     padding: 10px;
+     border-radius: 10px;
+     color: var(--main-text-color);
+     font-size: 15px;
+   }
+
+.odd {
+     flex-direction: row-reverse;
+}
+.even {
+     flex-direction: row;
+}
+
+.project-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: var(--image-cover);
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+}
+   
+.project:hover .project-overlay {
+     opacity: 1;
+     z-index: 1;
+}   
+   
+.project-details {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     gap: 2px;
+     padding: 0 5px 0 5px;
+}
+
+.project-details h3{
+     margin-bottom: 5px;
+     color: var(--main-text-color);
+}
+
+.project-p{
+     text-align: justify;
+}
+
+.git{
+     font-size: 15px;
+}
+
+.tech-icons{
+     font-size: 30px;
+     display: flex;
+     gap: 15px;
+}
+
+.project-img{
+     width: 270px;
+     height: 200px;
+}
+
+@media screen and (max-width:800px){
+     .project{
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .project-img{
+          max-width: 100%;
+          height: auto;
+     }
+
+     .project-details{
+          align-items: center;
+          padding: 0;
+     }
+     
+     .project-p{
+          text-align: center;
+     }
+
+     .project-details h3{
+          text-align: center;
+     }
 }

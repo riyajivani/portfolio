@@ -1,4 +1,4 @@
-.card{
+.mycard{
      background-color: var(--card-color);
      border-radius: 5px;
      width: 100%;
@@ -10,18 +10,19 @@
 }
 
 .profilePic{
-     width: 130px;
-     height: 130px;
+     width: 150px;
+     height: 150px;
      position: relative;
      transform: translateY(-60px);
-     border: 5px solid var(--card-color);
+     border: 10px solid var(--card-color);
      border-radius: 100%;
+     box-shadow: 0 -2px 5px var(--shadow-color);
 }
 
 .children{
      transform: translateY(-50px);
 }
 
-.card h1{
+.mycard h1{
      color: var(--main-text-color);
 }
