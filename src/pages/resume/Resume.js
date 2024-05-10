@@ -3,13 +3,14 @@ import MyCard from '../../component/card/MyCard'
 import './resume.css'
 import CommonBtn from '../../component/commonbtn/commonbtn'
 import { Link } from 'react-router-dom'
+import resume from '../../assets/resume.pdf'
 
-const ResumePdf = "http://localhost:3000/resume.pdf";
+const ResumePdf = resume
 
 const Resume = () => {
 
      const handleDownload = () => {
-          const fileName = ResumePdf.split("/").pop();
+          const fileName = "resume.pdf"
           const aTag = document.createElement("a");
           aTag.href = ResumePdf;
           aTag.setAttribute("download", fileName);
