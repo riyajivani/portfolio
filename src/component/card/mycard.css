@@ -4,11 +4,10 @@
      width: 100%;
      height: fit-content;
      display: flex; 
-     flex-direction: column; 
+     flex-direction: column;  
      align-items: center;
      box-shadow: 1px 1px 5px var(--shadow-color);
 }
-
 .profilePic{
      width: 150px;
      height: 150px;

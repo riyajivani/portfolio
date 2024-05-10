@@ -1,4 +1,31 @@
-.resume-card{
-     text-align: center;
-     margin-bottom: 20px;
+.resume-card{    
+     margin: 30px 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: black;
 }
+
+.resume{    
+     background-color: white;
+     padding: 20px 30px;
+     border: 1px solid black;
+}
+
+.resume h1,h4{
+     text-align: center;
+     color: black;
+}    
+
+.resume h2{
+     color: var(--link-color);
+     margin-top: 20px;
+     align-self: flex-start;
+}
+
+.resume li{
+     list-style: circle;
+     margin-left: 18px;
+     margin-top: 5px;
+}
+
