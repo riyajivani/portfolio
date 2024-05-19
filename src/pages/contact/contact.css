@@ -7,6 +7,10 @@
      padding: 0 30px;
 }
 
+.contact-card h4{
+     color: var(--main-text-color);
+}
+
 .contact-sm {
      display: none;
      margin: 15px;
