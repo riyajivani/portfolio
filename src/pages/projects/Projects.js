@@ -48,10 +48,9 @@ const Projects = () => {
                <div className="projects">
                     {projects.projects.map((project, index) => (
 
-                         <div className={`project ${index % 2 === 0 ? 'even' : 'odd'}`} key={index} onClick={() => window.open(`${project.view}`, "_blank")}>
-                              <div className="project-overlay"></div>
+                         <div className={`project ${index % 2 === 0 ? 'even' : 'odd'}`} key={index} >
 
-                              <img src={require(`../../assets/${project.image}`)} className='project-img' alt={project.title} />
+                              <img src={require(`../../assets/${project.image}`)} className='project-img' alt={project.title} onClick={() => window.open(`${project.view}`, "_blank")}></img>
 
                               <div className="project-details">
 
