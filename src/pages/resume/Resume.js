@@ -40,7 +40,7 @@ const Resume = () => {
                               <ul>
                                    <li>
                                         B.Tech. in Information Technology | Dharmsinh Desai University, Nadiad
-                                        <br />CPI: 8.97 | (Oct ’21 – Jun ‘25)
+                                        <br />CPI: 9.08 | (Oct ’21 – Jun ‘25)
 
                                    </li>
                                    <li>
