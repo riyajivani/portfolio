@@ -30,8 +30,8 @@ const Resume = () => {
 
                               <h2>ABOUT</h2>
                               <p>An entry-level software developer skilled in Java (including Hibernate, Spring Boot
-                                   and Design Patterns), React and Android development. Possesses a foundational
-                                   understanding of PostgreSQL and basic e-commerce security concepts.
+                                   and Design Patterns) and React. Possesses a foundational
+                                   understanding of Databases and basic e-commerce security concepts.
                                    Committed to contributing to team goals, continuously enhancing skills, and eager
                                    to apply my skills to impactful projects, drive innovation, and collaborate effectively
                                    towards achieving our goals.</p>
