@@ -21,6 +21,7 @@
      color: var(--link-color);
      margin-top: 20px;
      align-self: flex-start;
+     border-bottom: 1px solid var(--link-color);
 }
 
 .resume li{
