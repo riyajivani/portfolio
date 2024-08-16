@@ -3,7 +3,7 @@ import MyCard from '../../component/card/MyCard'
 import './resume.css'
 import CommonBtn from '../../component/commonbtn/commonbtn'
 import { Link } from 'react-router-dom'
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/resume.pdf'
 
 const ResumePdf = resume
 
