@@ -50,7 +50,11 @@ const About = () => {
                <MyCard>
                     <div className="about-card">
                          <h1>Riya Jivani</h1>
-                         <p><b>Enthusiastic Learner</b>, with knowledge in android development, Java(Advance, Hibernate, Spring, Design Patterns), Database like PostgreSql and Mathematics. Currently, I'm pursuing degree of B.Tech from <b>DHARMSINH DESAI UNIVERSITY</b> in field of <b>INFORMATION TECHNOLOGY.</b> I'm seeking an opportunity to use my skills with my best. I do my work with all my heart and I get lost in that work, this is one of the best point to hire me.</p>
+                         <p>I am an enthusiastic learner 📚 with a strong foundation in Android development 📱 and expertise in Java, including advanced concepts, Hibernate, Spring, and Design Patterns 💡. My technical skill set extends to databases such as MySQL and MongoDB 🗄️, complemented by a solid understanding of Mathematics ➕➖.
+
+                              I hold a B.Tech degree in Information Technology 🎓 from Dharmsinh Desai University. I am eager to apply my skills and knowledge in a dynamic and challenging environment where I can contribute effectively and continue to grow professionally 🌟.
+
+                              What sets me apart is my dedication and passion for my work ❤️. I immerse myself fully in my projects, striving for excellence in every task I undertake. I am actively seeking opportunities where I can leverage my skills to make a meaningful impact 💼.</p>
                          <Commonbtn content="View Resume" onClick={() => { navigate("/resume") }} />
                     </div>
                </MyCard>
