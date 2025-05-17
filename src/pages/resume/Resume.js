@@ -28,18 +28,11 @@ const Resume = () => {
                               <h1>RIYA JIVANI</h1>
                               <h4>riyajivani8@gmail.com | <Link className='fp-link' to="https://github.com/riyajivani" target='_blank'>GitHub Profile </Link> | <Link className='fp-link' to="https://www.linkedin.com/in/riya-jivani-729116228/" target='_blank'>LinkedIn Profile </Link> | (+91) 6351414235</h4>
 
-                              <h2>ABOUT</h2>
-
-                              <p style={{ textAlign: 'justify' }}>An entry-level software developer skilled in Java (including Hibernate, Spring Boot and Design Patterns) and ReactJS.
-                                   Possesses a foundational understanding of databases and basic e-commerce security concepts. Committed to
-                                   contributing to team goals, continuously enhancing skills, and eager to apply my skills to impactful projects, drive
-                                   innovation, and collaborate effectively towards achieving our goals.</p>
-
                               <h2>EDUCATION</h2>
                               <ul>
                                    <li style={{ listStyle: 'none' }}>
                                         <b>B.Tech., Information Technology, Dharmsinh Desai University</b> <br />
-                                        CPI: 9.08 | (2021 – 2025)
+                                        CPI: 8.98 | (2021 – 2025)
 
                                    </li>
                                    <li style={{ listStyle: 'none' }}>
@@ -49,19 +42,34 @@ const Resume = () => {
                                    </li>
                               </ul>
 
+                              <h2>Experience</h2>
+
+                              <h3>eSparkBiz Technologies (Software Development Intern)</h3>
+                              Ahmedabad, Gujarat (Jan 2025 – Ongoing)
+                              <ul>
+                                   <li>Completed hands-on training in JavaScript, Node.js, MySQL, and EJS, focusing on full-stack web development.</li>
+                                   <li>Collaborated on a ride-booking web application (inspired by Uber), developed from scratch with a custom UI.</li>
+                                   <li>Developed and managed admin-side modules, including user management and driver document verification
+                                        workflows.</li>
+                                   <li>Handled GitHub repository management, ensuring smooth code integration, version control, and team workflow</li>
+                              </ul>
                               <h2>TECHNICAL SKILLS</h2>
                               <ul>
-                                   <li style={{ listStyle: 'none' }}><b>Core Skills:</b> DBMS, DSA, OOPS, SDLC, OS, REST API, Computer Networks, Design Patterns in Java </li>
-                                   <li style={{ listStyle: 'none' }}><b>Programming Languages:</b> Java, C++, HTML, CSS, JavaScript</li>
-                                   <li style={{ listStyle: 'none' }}><b>Frameworks and Libraries:</b> ReactJS, SpringBoot, Hibernate, .NET Framework(learning)</li>
-                                   <li style={{ listStyle: 'none' }}><b>Technologies:</b> Web Development, Full Stack Development</li>
-                                   <li style={{ listStyle: 'none' }}><b>Basic Machine Learning Models:</b> Linear Regression, Logistic Regression, Naïve Bayes Classification, Decision Tree Classification, Support Vector Machine, KNN Clustering, K-Means Clustering</li>
-                                   <li style={{ listStyle: 'none' }}><b>Tools:</b> VS Code, IntelliJ IDEA, GitHub, Docker, Postman, NetBeans, PgAdmin</li>
-                                   <li style={{ listStyle: 'none' }}><b>Hosting Platform:</b> Render, Railway, Vercel</li>
-                                   <li style={{ listStyle: 'none' }}><b>Soft Skills:</b> Punctual, Goal-Driven, Decisive, Engaged Listener, Self-Motivation</li>
+                                   <li style={{ listStyle: 'none' }}><b>Core Skills:</b> DBMS, DSA, OOPS, OS, Computer Networks </li>
+                                   <li style={{ listStyle: 'none' }}><b>Languages:</b> : Java, C++, HTML, CSS, JavaScript</li>
+                                   <li style={{ listStyle: 'none' }}><b>Frameworks and Libraries:</b> : ReactJS, ExpressJS, NodeJS, EJS
+                                   </li>
+                                   <li style={{ listStyle: 'none' }}><b>Tools:</b> VS Code, IntelliJ IDEA, GitHub, Postman</li>
                               </ul>
                               <h2>PROJECTS</h2>
                               <ul>
+                                   <li style={{ listStyle: 'none' }}>
+                                        <h3>Real Estate Application
+                                        </h3>
+                                        <p> ⎯ Tools and Technology used: MERN stack <br />
+                                             The Real Estate Application is a feature-rich platform enabling property listings, filtering, map integration, and seamless communication between buyers and sellers. It also supports personalized user profiles and advanced search functionalities for an enhanced real estate experience.
+                                        </p>
+                                   </li>
                                    <li style={{ listStyle: 'none' }}>
                                         <h3>ScholarSphere - MERN based Student Query Management System</h3>
                                         <p> ⎯ Tools and Technology used: MERN stack<br />
@@ -75,21 +83,6 @@ const Resume = () => {
                                         <p> ⎯ Tools and Technology used: ReactJS, SpringBoot, MySQL<br />
                                              Resume Builder is an easy-to-use application designed to help users create professional resumes quickly and
                                              efficiently. It offers a user-friendly interface with customizable templates and easy editing options.
-                                        </p>
-                                   </li>
-                                   <li style={{ listStyle: 'none' }}>
-                                        <h3>Online Flight Booking System – DBMS based ticket booking portal
-                                        </h3>
-                                        <p>⎯ Tools and Technology used: PostgreSQL<br />
-                                             This project underscores my proficiency in designing the backend architecture essential for a seamless and
-                                             efficient flight booking experience</p>
-                                   </li>
-                                   <li style={{ listStyle: 'none' }}>
-                                        <h3>Shopello – E-Commerce Website
-                                        </h3>
-                                        <p>⎯ Tools and Technology used: HTML, CSS<br />
-                                             Designed a website using HTML and CSS, offering a seamless shopping experience. Features include product
-                                             viewing, a login page, and a cart page for a straightforward user journey.
                                         </p>
                                    </li>
                               </ul>

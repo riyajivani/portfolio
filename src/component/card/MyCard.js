@@ -1,5 +1,5 @@
 import './mycard.css'
-import profilePic from '../../assets/profile-pic.png'
+import profilePic from '../../assets/profile-pic.jpg'
 
 import React from 'react'
 
